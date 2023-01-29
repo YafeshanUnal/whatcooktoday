@@ -29,7 +29,7 @@ export const CategoryPage = ({ name }: NameProps) => {
 					children={food.name}
 				/>
 			))}
-			<Link href="/" children="Go HOMe" />
+			<Link href="/" />
 			<h1>I LoveYasinb</h1>
 		</div>
 	);

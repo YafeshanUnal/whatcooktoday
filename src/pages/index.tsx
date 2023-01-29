@@ -28,8 +28,8 @@ export default function Home() {
 				</h3>
 				<div className="flex flex-col gap-4 items-center justify-center">
 					{/* CategoryPage'i açan Link koy */}
-					<Link children="CategoryPage" href="/category/name" />
-					<Link children="DetailPage" href="/detail/name" />
+					<Link href="/category/name" />
+					<Link href="/detail/name" />
 				</div>
 			</main>
 		</>

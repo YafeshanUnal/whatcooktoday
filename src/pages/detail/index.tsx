@@ -9,7 +9,7 @@ export const DetailPage = ({ name }: DetailProps) => {
 			<h1>Detail Page</h1>
 			Lobe Yasinb
 			<h1 className="text-4xl font-bold">{name}</h1>
-			<Link href="/" children="Go HOMe" />
+			<Link href="/" />
 		</div>
 	);
 };
