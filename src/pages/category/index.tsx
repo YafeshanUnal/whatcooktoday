@@ -23,11 +23,7 @@ export const CategoryPage = ({ name }: NameProps) => {
 	return (
 		<div className="flex flex-col gap-4 items-center justify-center">
 			{food.map((food) => (
-				<Link
-					href={`/category/${food.name}`}
-					key={food.name}
-					children={food.name}
-				/>
+				<Link href={`/category/${food.name}`} key={food.name} />
 			))}
 			<Link href="/" />
 			<h1>I LoveYasinb</h1>
